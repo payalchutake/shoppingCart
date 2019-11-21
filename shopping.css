@@ -1,0 +1,112 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+h1, h2, h3{
+	text-align: center;
+	font-weight: bold;
+}
+
+.small-img{
+	height: 150px;
+}
+
+.small-img-wrapper{
+	height: 150px;
+	overflow: hidden;
+}
+
+.imageAndText {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.image-text {
+	height: auto;
+}
+
+.imageAndText img {
+  	width: 100%;
+  	height: auto;
+  	overflow: hidden;
+}
+
+.imageAndText .btn {
+  	position: absolute;
+  	top: 90%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	background-color: #555;
+  	color: black;
+  	font-size: 16px;
+  	padding: 12px 24px;
+  	border: none;
+  	cursor: pointer;
+  	border-radius: 5px;
+  	text-align: center;
+}
+
+.imageAndText .btn:hover {
+  	background-color: white;
+}
+.set-image {
+  	position: relative;
+  	text-align: center;
+  	color: black;
+  	overflow: hidden;
+}
+
+.small-img-wrapper .btn {
+	position: absolute;
+  	top: 80%;
+  	left: 30%;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	background-color: #555;
+  	color: black;
+  	font-size: 10px;
+  	padding: 12px 24px;
+  	border: none;
+  	cursor: pointer;
+  	border-radius: 5px;
+  	text-align: center;
+}
+
+.small-img-wrapper img {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.small-img-wrapper .btn:hover {
+	background-color: white;
+}
+
+.top-left {
+  	position: absolute;
+  	z-index: 1;
+  	top: 20px;
+  	left: 15px;
+  	overflow: hidden;
+}
+
+.top-right {
+	position: absolute;
+	z-index: 1;
+	top: 8px;
+	right: 16px;
+	overflow: hidden;
+}
+
+.middle-left {
+	position: absolute;
+	z-index: 1;
+	top: 20%;
+	left: 15%;
+	overflow: hidden;
+}
