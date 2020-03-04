@@ -29,26 +29,22 @@ function sConsole(event) {
 var itemCount = 0;
 var priceTotal = 0;
 
-// Add Item to Cart
 $('.add-to-cart').click(function (){
     itemCount ++;
 
     $('#itemCount').text(itemCount).css('display', 'block');
     $(this).siblings().clone().appendTo('#cartItems');
     
-    // Calculate Total Price
     var price = parseInt($(this).siblings().find('.price').text()); 
     priceTotal += price;
     $('#cartTotal').text("Total: $" + priceTotal);
 }); 
 
 
-// Hide and Show Cart Items
 $('.openCloseCart').click(function(){
     $('#shoppingCart').toggle();
 });
 
-// Empty Cart
 $('#emptyCart').click(function() {
     itemCount = 0;
     priceTotal = 0;
